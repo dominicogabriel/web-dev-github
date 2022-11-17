@@ -1,0 +1,29 @@
+Inline Styles : Assign elements styles via the style attributes
+Global CSS Style : One CSS rule can apply to multiple elements on the page
+CSS Selector : Part of CSS rule that defines for which element(s) the rule applied
+Head & Body : Clarifies which content is the main visual content and which data is extra metadata
+
+Meta Information : Information that provides but not visually visible on the website (information that important for the website)
+<head>
+<title></title>
+</head>
+This is metadata
+
+<body></body>
+Page content
+
+There are two main ways of achieving this:
+
+You can use the special <pre>...</pre> tags (for "preformatted text") - these tags wrap any text (that may include HTML code) and "tell the browser" to output it as plain text (i.e. NOT interpret it as HTML code). When using <pre>, whitespace is also preserved and NOT ignored (as it normally would be)
+
+Alternatively, if you simply want to output the "<" character (e.g. in some math formula that should be shown on your page), you can use some special "shortcuts" (so-called "HTML entities") in your HTML code:
+
+E.g. if you write &gt; in your HTML code, the browser will output the ">" (greater than) symbol
+
+&lt; => "<" (lower than)
+
+
+
+Inheritance : Selected container rules apply to descendants
+Cascading : Multiple rules can be applied to same elements (The latest applied rules win)
+Specificity : More specific selector wins over less specific selector
